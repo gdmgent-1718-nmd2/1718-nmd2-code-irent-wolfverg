@@ -1,0 +1,371 @@
+.tekst {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-right:80px;
+    padding-left:80px;
+}
+.tekst_oo {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-top:60px;
+    padding-bottom:30px;
+    padding-right:80px;
+    padding-left:80px;
+    border-top: 5px dashed;
+    border-color: #8BBFE8;
+    justify-content: center;
+}
+.tekstblauw {
+    text-align: center;
+    font-weight: bold;
+    color: #8BBFE8;
+    font-weight: 0,5;
+    font-size: 18pt;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 50px;
+}
+.tekstsmall {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+    margin-right:80px;
+    margin-left:80px;
+}
+.tekstindex {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-bottom:30px;
+    margin-top:50px;
+    padding-right:80px;
+    padding-left:80px;
+}
+
+.tekst_persoons_info {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-bottom:100px;
+    margin-top:80px;
+    border-bottom: 5px dashed;
+    border-color: #8BBFE8;
+}
+.tekst_betaalwijze {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-bottom:100px;
+    margin-top:80px;
+    border-bottom: 5px dashed;
+    border-color: #8BBFE8;
+}
+.datum {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top:80px;
+}
+.tekstindex2 {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    padding-bottom:80px;
+   padding-right:80px;
+   padding-left:80px;
+}
+.tekstWit {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left:80px;
+    margin-right:80px;
+}
+
+h1.display-3 {
+    font-family: Luckiest Guy;
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px #000000;
+    padding: auto;
+    margin: auto;
+    padding-top: 70px;
+    font-size: 2em;
+
+}
+
+.titelkader{
+    background: #8BBFE8;
+    height: 200px;
+}
+
+.titelkaderGroot{
+    background: #8BBFE8;
+    height: 300px;
+}
+
+.tekstMetlijn {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-top: 5px dashed;
+    border-color: #8BBFE8;
+    padding-top:100px;
+    padding-bottom:60px;
+    padding-right:80px;
+    padding-left:80px;
+    
+}
+.tekstMetlijn2 {
+    text-align: center;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 5px dashed;
+    border-color: #8BBFE8;
+    padding-top:75px;
+    padding-bottom:30px;
+    padding-left: 80px;
+    padding-right:80px;
+}
+
+.lijst {
+    text-align: left;
+    color: #575756;
+    font-weight: 0,5;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.lijst-met-lozenge {
+    list-style: none; /* Remove list bullets */
+    margin: 0;
+}
+.lijst-met-lozenge li {
+    padding-left: 50px;
+    position: relative;
+}
+.lijst-met-lozenge li::before {
+    content: "◊";
+    position: absolute;
+    left: 0;
+    color: #df9bc4; /* Or a color you prefer */
+}
+.lijststijl{ 
+    content: "◊"; /* Insert content that looks like bullets */
+    padding-left: 10px; 
+    padding-top:60px;
+}
+
+.knop{
+    margin-top:50px;
+    margin-bottom: 70px;
+}
+
+.btn-primary{
+    color: white;
+}
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    h1.display-3 {
+        font-size: 4em;
+    
+    }
+    .titelkader {
+        background: #8BBFE8;
+        height: 300px;
+    }
+    .tekstindex {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding-bottom:30px;
+        margin-top:80px;
+    }
+    .tekstindex2 {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding-bottom:80px;
+    }
+    .tekst {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        border:none;
+    }
+    .tekstMetlijn {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        border-top: 5px dashed;
+        border-color: #8BBFE8;
+        padding-top:100px;
+        padding-bottom:60px;
+    }
+    .tekst_oo {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+        padding-left:40px;
+        padding-right:40px;
+        border:none;
+    }
+    .tekstsmall {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding-top: 120px;
+        margin-bottom: 120px;
+    }
+    .tekstWit {
+        text-align: center;
+        color: #ffffff;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .titelkaderGroot{
+        background: #8BBFE8;
+        height: 350px;
+    }
+    .lijst {
+        text-align: left;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+    .lijststijl{ 
+        content: "◊"; /* Insert content that looks like bullets */
+        padding-left: 10px; 
+        padding-top:30px;
+    }
+    .tekstMetlijn2 {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-top: 5px dashed;
+        border-color: #8BBFE8;
+        padding-top:75px;
+        padding-bottom:30px;
+    }
+    .tekst_persoons_info {
+        text-align: center;
+        color: #575756;
+        font-weight: 0,5;
+        font-size: 12pt;
+        letter-spacing: 1px;
+        line-height: 26px;
+        padding-bottom:100px;
+        margin-top:80px;
+        border-bottom: 5px dashed;
+        border-color: #8BBFE8;
+    }
+    
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+
+ }
+
+ .bg-light {
+     background-color: white !important;
+     color: #8BBFE8!important;
+ }

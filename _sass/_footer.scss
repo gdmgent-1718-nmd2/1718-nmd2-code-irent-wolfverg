@@ -1,0 +1,88 @@
+.footer {
+    height: 120px;
+    background: #DF9BC4;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.footertext {
+    height: 30px;
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 1px;
+}
+
+.fa-facebook{
+    margin-top:20px;
+    margin-bottom:10px;
+    padding:9px;
+    padding-left:12px;
+    padding-right:12px;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-radius: 100px;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    
+     }
+    
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) {
+        .footer {
+            height: 120px;
+            background: #DF9BC4;
+            font-weight: lighter;
+            text-align: center;
+        }
+        
+        .footertext {
+            height: 30px;
+            font-size: 12pt;
+            font-family: Montserrat;
+            color: #ffffff;
+            font-weight: lighter;
+            text-align: center;
+            border-bottom: 1px solid white;
+            border-top: 1px solid white;
+            margin-left:300px;
+            margin-right: 300px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        
+        .fa-facebook{
+            margin-top:20px;
+            margin-bottom:10px;
+            padding:9px;
+            padding-left:12px;
+            padding-right:12px;
+            color: white;
+            border: solid;
+            border-width: 1px;
+            border-radius: 100px;
+        } 
+       
+     }
+    
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) { 
+    
+     }
+    
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+    
+     }
